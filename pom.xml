@@ -12,6 +12,13 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+             <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+
+    <sonar.projectKey>sonar-maven-jenkins</sonar.projectKey>
+    <sonar.projectName>sonar-maven-jenkins</sonar.projectName>
+    <sonar.host.url>http://localhost:9000</sonar.host.url>
+
     </properties>
 
     <dependencies>
